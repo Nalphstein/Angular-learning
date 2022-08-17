@@ -1,0 +1,28 @@
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+  }
+  nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #e8e8e8;
+    row-gap: 3rem;
+    color: #3d3d3d;
+    border-radius: 0.9rem;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  nav a:active {
+    background-color: black;
+  }
